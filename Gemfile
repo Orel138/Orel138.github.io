@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# If you have any plugins, put them here!
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -19,6 +20,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'jekyll-spaceship', '~> 0.10.2'
 end
 group :other_plugins do
     gem 'feedjira'
