@@ -41,4 +41,4 @@ jobs:
           bundler_ver: '>=0'         # Default is latest bundler version
           cname: ''                  # Default is to not use a cname
           actor: ''                  # Default is the GITHUB_ACTOR
-          pre_build_commands: 'pacman -Syu --noconfirm && pacman -S --noconfirm python python-pip imagemagick ruby jupyter-notebook inotify-tools procps-ng && gem install jekyll bundler && pacman -Scc'     # Installing additional dependencies (Arch Linux)
+          pre_build_commands: 'pacman -Syu --noconfirm && pacman -S --noconfirm python python-pip libwebp imagemagick ruby jupyter-notebook inotify-tools procps-ng && gem install jekyll bundler && pacman -Scc'     # Installing additional dependencies (Arch Linux)
