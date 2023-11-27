@@ -3,7 +3,8 @@ name: Build and Deploy to Github Pages
 on:
   push:
     branches:
-      - dev/tests  # Here source code branch is `master`, it could be other branch
+      - main # Here source code branch is `main`, it could be other branch
+      - dev/tests
 
 permissions:
     contents: write
