@@ -24,5 +24,5 @@ end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
-    gem 'jekyll-spaceship', '~> 0.10.2'
+    gem 'jekyll-spaceship', github: 'jeffreytse/jekyll-spaceship'
 end
